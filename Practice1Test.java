@@ -36,7 +36,7 @@ public class Practice1Test {
 	public boolean testFibonacci() {
 		Fibonacci fibonacci = new Fibonacci();
 		int[][] expectedValues = {{1, 1}, {4, 3}, {10, 55}};
-		
+
 		for (String type : types) {
 			for (int i = 0; i < expectedValues.length; i++) {
 				if (fibonacci.fibonacci(expectedValues[i][0], type) != expectedValues[i][1]) {
